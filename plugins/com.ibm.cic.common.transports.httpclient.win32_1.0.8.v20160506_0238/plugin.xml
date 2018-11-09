@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         id="winNtlmAuthGenerator"
+         point="com.ibm.cic.common.transports.httpclient.ntlmAuthGenerator">
+      <ntlmAuthGeneratorFactory
+            class="com.ibm.cic.common.transports.httpclient.internal.win32.WinNTLMAuthGeneratorFactory">
+      </ntlmAuthGeneratorFactory>
+   </extension>
+
+</plugin>

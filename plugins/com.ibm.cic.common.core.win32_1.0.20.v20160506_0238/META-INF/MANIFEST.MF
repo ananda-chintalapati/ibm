@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Fragment-Host: com.ibm.cic.common.core;bundle-version="1.0.0"
+Bundle-Version: 1.0.20.v20160506_0238
+Eclipse-PlatformFilter: (osgi.os=win32)
+Bundle-Localization: fragment-win32
+Bundle-Name: %fragmentName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ibm.cic.common.core.win32;singleton:=true
+From-Capilano-Version: 1.8.5
+
+

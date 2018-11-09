@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: com.ibm.cic.common.transports.httpclient.internal.win3
+ 2;x-friends:="com.ibm.cic.common.transports.httpclient.win32.tests"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/cic.httpclient.win32.jar
+Bundle-Name: %plugin.Name
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.ibm.cic.common.transports.httpclient,org.eclipse.c
+ ore.runtime,com.ibm.cic.common.core
+Bundle-Vendor: %plugin.ProviderName
+Bundle-Version: 1.0.8.v20160506_0238
+Eclipse-PlatformFilter: (osgi.os=win32)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ibm.cic.common.transports.httpclient.win32;si
+ ngleton:=true
+From-Capilano-Version: 1.8.5
+
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Eclipse-PlatformFilter: (osgi.os=win32)
+Bundle-Vendor: %providerName
+Bundle-Localization: fragment-win32
+Fragment-Host: com.ibm.cic.licensing.lum;bundle-version="7.0.2"
+Bundle-Name: %fragmentName
+Bundle-SymbolicName: com.ibm.cic.licensing.lum.win32;singleton:=true
+Bundle-Version: 8.1.1006.v20130818_1838
+Bundle-ManifestVersion: 2
+

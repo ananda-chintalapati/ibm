@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+    <extension
+         id="winPlatformOperationsProvider"
+         point="com.ibm.cic.agent.core.commonNativeInstallAdapter.platformOperationsProvider">
+      <platformOperationsProvider
+            class="com.ibm.cic.agent.internal.adapters.nativeAdapter.win32.WinPlatformOperationsProvider">
+      </platformOperationsProvider>
+   </extension>
+    <extension
+         id="winVariableProvider"
+         point="com.ibm.cic.agent.core.variableProvider">
+      <variableProvider
+            class="com.ibm.cic.agent.internal.adapters.nativeAdapter.win32.WinVariableProvider">
+      </variableProvider>
+   </extension>
+  <extension
+    point="com.ibm.cic.agent.core.installAdaptors"
+    id="nativeWin32Adapter"
+    name="native Win32 Install Adapter">
+    <installAdaptor
+      type="nativeWin32"
+      class="com.ibm.cic.agent.internal.adapters.nativeAdapter.win32.NativeWin32InstallAdapter"/>
+  </extension>
+  <extension
+        point="com.ibm.cic.common.core.exportMessages">
+     <messages class="com.ibm.cic.agent.internal.adapters.nativeAdapter.win32.Messages"/>
+  </extension>   
+</plugin>
